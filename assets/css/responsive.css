@@ -1,0 +1,43 @@
+@media (max-width:768px){
+    .nav{
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:white;
+        display:none;
+        }
+
+    .nav__menu{
+        flex-direction:column;
+        padding:20px;
+        }
+
+    .nav.active{
+        display:block;
+        }
+
+    .menu-toggle{
+        display:flex;
+        }
+
+    .header__donate{
+        display:none;
+        }
+}
+
+@media (max-width:768px){
+
+    .hero{
+        height:auto;
+        padding:120px 0;
+        }
+
+    .hero__title{
+        font-size:32px;
+        }
+
+    .hero__buttons{
+        flex-direction:column;
+    }
+}
